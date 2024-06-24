@@ -1,6 +1,9 @@
 Description:
 	A navigation system (like Google Maps) that allows the user to scroll around on a map of Edmonton, to select start and end points of a trip. The coordinates of these points are then sent to a route-finding server. This server uses Dijkstra’s Algorithm to compute the shortest path between the two selected points (or nearest points to them in the road network), and returns the route information (coordinates of the waypoints along the shortest path) to a plotter program. The plotter then displays the route as line segments overlaid on the original map by connecting the waypoints.
 
+ <img width="277" alt="navigationsystem" src="https://github.com/MAl-l3R/Trivial-Navigation-System/assets/75026828/09328e2b-bdde-4576-9da0-6df30063a5a1">
+
+
 	Plotter Program Controls:
 		• press W/S/A/D to move up/down/left/right the patch that is displayed in the window, respectively;
 		• press R to remove all routes and selected points on the map;
